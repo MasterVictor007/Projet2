@@ -1,0 +1,79 @@
+
+                    /* CONFIG POLICE WEB (Raleway) */
+                  @font-face {
+                        font-family: 'R-black';
+                        src: url(R-black.ttf);
+                  }
+                  @font-face {
+                        font-family: 'R-bold';
+                        src: url(R-bold.ttf);
+                  }
+                  @font-face {
+                        font-family: 'R-xtralight';
+                        src: url(R-xtralight.ttf);
+                  }
+                  @font-face {
+                        font-family: 'R-light';
+                        src: url(R-light.ttf);
+                  }
+                  @font-face {
+                        font-family: 'R-medium';
+                        src: url(R-medium.ttf);
+                  }
+                  @font-face {
+                        font-family: 'R-normal';
+                        src: url(R-normal.ttf);
+                  }
+                  @font-face {
+                        font-family: 'R-semibold';
+                        src: url(R-semibold.ttf);
+                  }
+                  @font-face {
+                        font-family: 'R-finer';
+                        src: url(R-finer.ttf);
+                  }
+                  @font-face {
+                        font-family: 'R-xtrabold';
+                        src: url(R-xtrabold.ttf);
+                  }
+                  
+                                        /* Debut du Code CSS3 */
+                  
+                  
+                  div.buton 
+                  {
+                        font-family: R-normal, Arial, Helvetica, sans-serif;
+                         color: #0065FC;
+                         text-align: right;
+                         word-spacing: 52px;
+                         margin-right: 55px;
+                         text-align: end;
+                         margin-top: -30px;
+                      
+                  
+                  
+                  }
+                  
+                  div.text1 
+                  {
+                         font-family: R-semibold, Arial, Helvetica, sans-serif;
+                         margin-left: 45px;
+                         font-size: large;
+                        
+                        
+                       
+                  
+                  
+                  }
+                  
+                  div.text2 
+                  {
+                  
+                         font-family: R-normal, Arial, Helvetica, sans-serif;
+                         margin-left: 46px;
+                         margin-top: 10px;
+                  
+                  
+                  
+                  
+                  }
