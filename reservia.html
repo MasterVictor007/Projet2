@@ -2,6 +2,7 @@
 
 <head>
   <meta charset="utf-8">
+  <script src="https://kit.fontawesome.com/2f9fcd75a6.js" crossorigin="anonymous"></script>
   <title>Reservia</title>
   <link rel="stylesheet" href="style.css">
   <!--Ne pas oublier d'enlever styletest de la phase finale-->
@@ -11,18 +12,19 @@
 </head> 
 <body>   
   <header>
-    <figure>
+    <figure><div class="img1">
       <img src="logo2.svg" alt="Logo du site reservia" title="Bienvenue chez Reservia">
-    </figure>
+    </div></figure>
 
     <nav>
       <ul>
         <li>Hébergements</li>
         <li>Activités</li>
-        <li>S'inscrire sur le site</li>
+        <li>S'inscrire</li>
       </ul>
     </nav>
   </header>
+
   <div class="text1">
     Trouvez votre hébergements pour des vacances de rêve</br>
   </div>
@@ -30,6 +32,13 @@
   <div class="text2">
     En plein centre ville ou en pleine nature
   </div>
+
+  <form><div class="recherche">
+      <i class="fas fa-map-marker-alt"></i>
+      <input type="search" id="maRecherche" name="q">
+      <button>Rechercher</button>
+  </div></form>
+
   <footer>
 
   </footer>

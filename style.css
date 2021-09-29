@@ -1,7 +1,6 @@
+ /* CONFIG POLICE WEB (Raleway) */
 
-    /* CONFIG POLICE WEB (Raleway) */
-
-    @font-face {
+ @font-face {
     font-family: 'R-black';
     src: url(R-black.ttf);
 }
@@ -37,45 +36,43 @@
     font-family: 'R-xtrabold';
     src: url(R-xtrabold.ttf);
 }
-
-                    /* Debut du Code CSS3 */
+  
+                      /* Debut du Code CSS3 */
 * 
 {
     margin: 0px;
     padding: 0px;
 }
-
+  
 ul 
 {
     list-style-type: none;
 }
-
+  
 header 
 {
-    margin: 10px;
+    margin: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+  
 nav ul 
 {
     display: flex;
     border: solid 1px red;
-}
-nav ul li 
-{
-    margin: 0px 10px;
-}
-
-div.buton 
-{
     font-family: R-normal, Arial, Helvetica, sans-serif;
     color: #0065FC;
-    word-spacing: 52px;
-    margin-right: 55px;
-    text-align: end;
-    margin-top: -30px;
+}
+
+nav ul li 
+{
+    margin: 0px 29px;
+}
+
+div.img1 
+{
+    margin-left: 12px;
 }
 
 div.text1 
@@ -84,11 +81,26 @@ div.text1
     margin-left: 45px;
     font-size: large;
 }
-
+  
 div.text2 
 {
-
+  
     font-family: R-normal, Arial, Helvetica, sans-serif;
     margin-left: 46px;
     margin-top: 10px;
 }
+
+div.recherche 
+{
+    margin-left: 45px;
+    margin-top: 45px;
+    color: tomato;
+}
+
+button 
+{
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
+    background-color: #0065FC;
+    color: white;
+}
+  
