@@ -95,6 +95,9 @@ div.text2
     font-size: 0.85rem
 }
 
+                            /* BARRE DE RECHERCHE */
+
+
 div.recherche 
 {
     color: black;
@@ -151,6 +154,38 @@ span.cherche
     margin-left: -5px;
     background-color: #0065FC;
 }
+
+
+                            /* FILTRES DU SITE */
+
+
+div.textfiltre 
+{
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Commande d'aide pour les bordures border: solid 1px red; */
 
