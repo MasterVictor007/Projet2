@@ -98,25 +98,21 @@ div.text2
                             /* BARRE DE RECHERCHE */
 
 
-div.recherche 
-{
-    color: black;
-    border-radius: 10px;   
-    
-     
-    
-}
 
-i.fas
+
+span.local
 {
-    border-style: solid;
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 20px;
     background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;
     border-color: #F2F2F2;
-    padding: 10px 13px 13px 13px;
+    padding: 12px 13px 14px 13px;
     text-align: center;
-    margin-left: 45px;
-    margin-top: 20px;
+    
+    
+    
     
 }
 
@@ -146,7 +142,7 @@ span.cherche
     border-style: solid;
     border-width: thin;
     border-color: #0065FC;
-    line-height: 2.5;
+    line-height: 2,5;
     padding: 10px 13px 13px 13px;
     font-size: 1rem;
     text-align: center;
@@ -158,16 +154,49 @@ span.cherche
 
                             /* FILTRES DU SITE */
 
-
-div.textfiltre 
+div.blocfiltre 
 {
-    font-family: R-semibold, Arial, Helvetica, sans-serif;
-    margin-left: 50px;
-    margin-top: 40px;
+    font-size: 14px;
 }
 
 
 
+span.textfiltre 
+{
+    margin-left: 50px;
+    margin-top: 35px;
+    display: inline-block;
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    
+}
+
+span.billet
+{
+    display: inline-block;
+    color: #0065FC;
+    border-style: solid;
+    border-width: thin;
+    border-color: #DEEBFF;
+    padding: 10px 10px 5px 10px;
+    width: 20px;
+    height: 23px;
+    border-radius: 30px;
+    background-color: #DEEBFF;
+    backface-visibility: hidden;
+}
+
+span.eco 
+{
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    border-style: solid;
+    border-color: #bdbbbbb9 #bdbbbbb9 #bdbbbbb9 transparent;
+    border-width: 0.10em;
+    padding: 0.60rem 0.93rem 0.70rem 1.25rem;
+    border-radius: 0px 30px 30px 0px;
+    margin-left: -1.32rem;
+}
 
 
 
