@@ -46,7 +46,7 @@
   
 body 
 {
-    
+    font-family: R-normal, Arial, Helvetica, sans-serif;
 }
 
 ul 
@@ -229,8 +229,40 @@ span.famille
     margin-left: -1.32rem;
 }
 
+.filtres 
+{
+    display: flex;
+    align-items: center;
+}
 
+.filtre 
+{
+    display: flex;
+    align-items: center;
+    border: solid 2px #F2F2F2;
+    border-radius: 30px;
+    border-left: none;
+    width: auto;
+    margin: 0 15px;
+}
 
+.icone_filtre 
+{
+    display: flex;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+
+}
+
+.texte_filtre
+{
+    padding: 0 10px;
+}
 
 
 
