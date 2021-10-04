@@ -154,96 +154,31 @@ span.cherche
 
                             /* FILTRES DU SITE */
 
-div.blocfiltre 
-{
-    font-size: 14px;
-}
-
-
-
-span.textfiltre 
-{
-    margin-left: 50px;
-    margin-top: 35px;
-    display: inline-block; 
-    font-family: R-semibold, Arial, Helvetica, sans-serif;
-    margin-right: 30px;
-    
-}
-
-span.billet
-{
-    display: inline-block;
-    color: #0065FC;
-    border-style: solid;
-    border-width: thin;
-    border-color: #DEEBFF;
-    padding: 8px 7px 3px 7px;
-    width: 20px;
-    height: 23px;
-    border-radius: 30px;
-    background-color: #DEEBFF;
-    backface-visibility: hidden;
-    text-align: center;
-    
-}
-
-span.eco 
-{
-    font-family: R-semibold, Arial, Helvetica, sans-serif;
-    border-style: solid;
-    border-color: #bdbbbbb9 #bdbbbbb9 #bdbbbbb9 transparent;
-    border-width: 0.10em;
-    padding: 0.46rem 1.15rem 0.61rem 1.70rem;
-    border-radius: 0px 30px 30px 0px;
-    margin-left: -1.32rem;
-}
-
-span.family
-{
-    margin-left: 15px;
-    display: inline-block;
-    color: #0065FC;
-    border-style: solid;
-    border-width: thin;
-    border-color: #DEEBFF;
-    padding: 8px 7px 3px 7px;
-    width: 20px;
-    height: 23px;
-    border-radius: 30px;
-    background-color: #DEEBFF;
-    backface-visibility: hidden;
-    text-align: center;
-}
-
-span.famille
-{
-    display: inline-block;
-    font-family: R-semibold, Arial, Helvetica, sans-serif;
-    margin-left: 15px;
-    border-style: solid;
-    border-color: #bdbbbbb9 #bdbbbbb9 #bdbbbbb9 transparent;
-    border-width: 0.10em;
-    padding: 0.46rem 1.15rem 0.61rem 1.70rem;
-    border-radius: 0px 30px 30px 0px;
-    margin-left: -1.32rem;
-}
 
 .filtres 
 {
     display: flex;
     align-items: center;
+    margin-left: 50px;
+    margin-top: 25px;
 }
 
-.filtre 
+.texte_filtre 
+{
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+
+.filtre
 {
     display: flex;
     align-items: center;
     border: solid 2px #F2F2F2;
-    border-radius: 30px;
+    border-radius: 40px;
     border-left: none;
     width: auto;
-    margin: 0 15px;
+    margin: 0 15px 0;
+    padding: -5px;
 }
 
 .icone_filtre 
@@ -259,9 +194,11 @@ span.famille
 
 }
 
-.texte_filtre
+.texte_filtre2
 {
-    padding: 0 10px;
+    padding: 8px;
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 
