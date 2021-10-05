@@ -76,13 +76,13 @@ nav ul li
 
 div.img1 
 {
-    margin-left: 12px;
+    margin-left: 25px;
 }
 
 div.text1
 {
     font-family: R-semibold, Arial, Helvetica, sans-serif;
-    margin-left: 45px;
+    margin-left: 60px;
     font-size: large;
 }
   
@@ -90,7 +90,7 @@ div.text2
 {
   
     font-family: R-normal, Arial, Helvetica, sans-serif;
-    margin-left: 46px;
+    margin-left: 60px;
     margin-top: 10px;
     font-size: 0.99rem;
 }
@@ -103,7 +103,7 @@ div.text2
 span.local
 {
     display: inline-block;
-    margin-left: 45px;
+    margin-left: 60px;
     margin-top: 20px;
     background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;
@@ -159,7 +159,7 @@ span.cherche
 {
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top: 25px;
 }
 
@@ -209,7 +209,7 @@ span.cherche
 {
     display: flex;
     align-items: center;
-    margin-left: 45px;
+    margin-left: 60px;
     margin-top: 35px;
     font-family: R-normal, Arial, Helvetica, sans-serif;
     font-size: 0.86rem;
@@ -241,10 +241,10 @@ span.cherche
     font-family: R-normal, Arial, Helvetica, sans-serif;
     margin-right: 50px;
     border: solid  #c5c2c2;
-    border-radius: 30px;
-    margin: 10px 800px 1000px;
+    border-radius: 20px;
+    margin: 20px 800px 1000px;
     padding: 100px 100px 100px 100px;
-    margin-left: 60px;
+    margin-left: 50px;
     background-color: #c5c2c2;
     
 }
@@ -253,7 +253,7 @@ span.cherche
 {
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: large;
-    position: absolute; top: 400px; left: 100px;
+    position: absolute; top: 400px; left: 80px;
 }
 
 .cube_ham 
@@ -262,7 +262,12 @@ span.cherche
     border: solid 2px white;
     background-color: white;
     width: 20%;
-    height: 60%;
+    height: 50%;
+    margin-left: -50px;
+    border-radius: 10%;
+    padding: 50px 50px 50px 50px;
+    object-position: center;
+    align-items: center;
     
 
 }
@@ -270,9 +275,11 @@ span.cherche
 .img_ham 
 {
     display: flex;
-    height: 95%;
-    width: 100%;
+    width: 95%;
+    height: 50%;
     border-radius: 10% 10% 0% 0%;
+    align-items: center;
+    margin-left: 5px;
 }
 
 .titre_cube
@@ -280,18 +287,27 @@ span.cherche
     display: flex;
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: 15px;
-    
+    margin-left: 5px;
+    margin-top: 80px;
 
 }
 
 .texte_cube
 {
     display: flex;
+    margin-left: 5px;
 }
 
+.icone_cube
+{
+    color: blue;
+    margin-left: 5px;
+}
 
-
-
+.icone2_cube
+{
+    color: grey;
+}
 
 
 
