@@ -238,14 +238,18 @@ span.cherche
 .hebergements_marseille
 {
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: left;
     font-family: R-normal, Arial, Helvetica, sans-serif;
     margin-right: 50px;
-    border: solid  #c5c2c2;
+    border: solid  #F2F2F2;
     border-radius: 20px;
     margin: 20px 800px 1000px;
-    padding: 100px 100px 100px 100px;
+    padding: 360px 360px 360px 360px;
     margin-left: 50px;
-    background-color: #c5c2c2;
+    background-color: #F2F2F2;
+    
     
 }
 
@@ -256,60 +260,17 @@ span.cherche
     position: absolute; top: 400px; left: 80px;
 }
 
-.cube_ham 
+.ham2
 {
-    font-family: R-normal, Arial, Helvetica, sans-serif;
-    border: solid 2px white;
-    background-color: white;
-    width: 20%;
-    height: 50%;
-    margin-left: -50px;
-    border-radius: 10%;
-    padding: 50px 50px 50px 50px;
-    object-position: center;
-    align-items: center;
-    
-
-}
-
-.img_ham 
-{
-    display: flex;
-    width: 95%;
-    height: 50%;
-    border-radius: 10% 10% 0% 0%;
-    align-items: center;
-    margin-left: 5px;
-}
-
-.titre_cube
-{
-    display: flex;
     font-family: R-semibold, Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    margin-left: 5px;
-    margin-top: 80px;
-
+    font-size: medium;
+    position: absolute; top: 1030px; left: 80px;
 }
 
-.texte_cube
+.img_ham
 {
-    display: flex;
-    margin-left: 5px;
+    
 }
-
-.icone_cube
-{
-    color: blue;
-    margin-left: 5px;
-}
-
-.icone2_cube
-{
-    color: grey;
-}
-
-
 
 
 
