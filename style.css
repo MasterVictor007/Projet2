@@ -267,10 +267,57 @@ span.cherche
     position: absolute; top: 1030px; left: 80px;
 }
 
+.section_ham
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.cube_ham
+{
+    border: solid 2px white;
+    background-color: white;
+    width: 20%;
+    height: 60%;
+    height: 50%;
+    margin-left: -50px;
+    border-radius: 10%;
+    padding: 50px 50px 50px 50px;
+
+}
+
 .img_ham
 {
-    
+    height: 95%;
+    width: 100%;
+    border-radius: 10% 10% 0% 0%;
+
 }
+
+.titre_cube
+{
+
+}
+
+.texte_cube
+{
+
+}
+
+.icone_cube
+{
+
+}
+
+
+
+
+
+
+
+
 
 
 
