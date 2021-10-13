@@ -67,6 +67,7 @@ nav ul
     display: flex;
     font-family: R-normal, Arial, Helvetica, sans-serif;
     color: #0065FC;
+    box-shadow: 0px -55px 0px -3px #0065FC;
 }
 
 nav ul li 
@@ -237,92 +238,83 @@ span.cherche
 
 .hebergements_marseille
 {
-display: flex;
-flex-wrap: wrap;
-align-items: flex-start;
-justify-content: left;
-font-family: R-normal, Arial, Helvetica, sans-serif;
-margin-right: 50px;
-border: solid  #F2F2F2;
-border-radius: 20px;
-margin: 20px 850px 1000px;
-padding: 360px 360px 360px 360px;
-margin-left: 50px;
-background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: R-normal, Arial, Helvetica, sans-serif;
+    border: solid  #F2F2F2;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin-left: 60px;
+    margin-top: 50px;
 
 
 }
 .ham 
 {
-font-family: R-semibold, Arial, Helvetica, sans-serif;
-font-size: large;
-position: absolute; top: 400px; left: 80px;
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .ham2
 {
-font-family: R-semibold, Arial, Helvetica, sans-serif;
-font-size: medium;
-    position: absolute; top: 1430px; left: 80px;
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
+    font-size: medium;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .section_ham
 {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    justify-content: space-around;
 
 }
 
 .cube_ham1
 {
     display: flex;
+    flex-direction: column;
     border: solid white;
     background-color: white;
-    width: 20%;
-    height: 80%;
-    margin-left: -340px;
-    margin-top: -270px;
-    border-radius: 6%;
-    padding: 85px 85px 10px 85px;
-    white-space: pre;
+    width: 250px;
+    border-radius: 20px;
     box-shadow: #c7c6c6 0px 0px 4px 2px;
-    
+    margin-top: 20px;
+    margin-bottom: 80px;
 
 }
 
 .img_ham
 { 
-    height: 30%;
-    width: 393%;
-    border-radius: 6% 6% 0% 0%;
-    margin-left: -82px;
-    margin-top: -82px;
+    height: 120px;
+    width: 250px;
+    border-radius: 20px 20px 0% 0%;
+    object-fit: cover;
+}
 
+.texte_ham
+{
+    margin: 10px;
 }
 
 .titre_cube
 {
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: 15px;
-    margin-top: 70px;
-    margin-left: -215px;
-
-
-
 }
 
 .texte_cube
 {
-    margin-top: 92px;
-    margin-left: -185px;
     font-size: small;
 
 }
 
 .icone_cube
 {
-    margin-top: 115px;
-    margin-left: -115px;
     color: #0065FC;
     font-size: 12px;
 
@@ -330,41 +322,10 @@ font-size: medium;
 
 .icone2_cube
 {
-    margin-top: 115px;
-    margin-left: 0px;
     color: grey;
     font-size: 12px;
 }
 
-.cube_ham2
-{
-    display: flex;
-    border: solid white;
-    background-color: white;
-    width: 20%;
-    height: 80%;
-    margin-left: 35px;
-    margin-top: -270px;
-    border-radius: 6%;
-    padding: 85px 85px 10px 85px;
-    white-space: pre;
-    box-shadow: #c7c6c6 0px 0px 4px 2px;
-}
-
-.cube_ham3
-{
-    display: flex;
-    border: solid white;
-    background-color: white;
-    width: 20%;
-    height: 80%;
-    margin-left: 50px;
-    margin-top: -270px;
-    border-radius: 6%;
-    padding: 85px 85px 10px 85px;
-    white-space: pre;
-    box-shadow: #c7c6c6 0px 0px 4px 2px;
-}
 
 
 
