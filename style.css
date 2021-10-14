@@ -305,16 +305,20 @@ span.cherche
 {
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: 15px;
+    margin-top: -5px;
 }
 
 .texte_cube
 {
+    margin-top: 5px;
     font-size: small;
 
 }
 
 .icone_cube
 {
+    display: inline-block;
+    margin-top: 10px;
     color: #0065FC;
     font-size: 12px;
 
@@ -325,6 +329,102 @@ span.cherche
     color: grey;
     font-size: 12px;
 }
+
+
+
+                            /* ARTICLE (les plus populaires) */
+
+
+.lplus_populaire
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: R-normal, Arial, Helvetica, sans-serif;
+    border: solid  #F2F2F2;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+.lpp
+{
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.lpp2
+{
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
+    font-size: medium;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section_lpp
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.cube_lpp1
+{
+    display: flex;
+    flex-direction: column;
+    border: solid white;
+    background-color: white;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: #c7c6c6 0px 0px 4px 2px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+}
+
+.texte_lpp
+{
+    margin: 10px;
+}
+
+.icone_cube3
+{
+    display: inline-block;
+    margin-top: 10px;
+    color: #0065FC;
+    font-size: 12px;
+
+}
+
+.icone_cube4
+{
+    color: grey;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
