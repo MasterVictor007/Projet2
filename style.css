@@ -82,7 +82,7 @@ div.img1
 
 div.text1
 {
-    font-family: R-semibold, Arial, Helvetica, sans-serif;
+    font-family: R-bold, Arial, Helvetica, sans-serif;
     margin-left: 60px;
     font-size: large;
 }
@@ -90,7 +90,7 @@ div.text1
 div.text2
 {
   
-    font-family: R-normal, Arial, Helvetica, sans-serif;
+    font-family: R-medium, Arial, Helvetica, sans-serif;
     margin-left: 60px;
     margin-top: 10px;
     font-size: 0.99rem;
@@ -166,7 +166,7 @@ span.cherche
 
 .texte_filtre 
 {
-    font-family: R-semibold, Arial, Helvetica, sans-serif;
+    font-family: R-bold, Arial, Helvetica, sans-serif;
     margin-right: 5px;
 }
 
@@ -198,8 +198,8 @@ span.cherche
 .texte_filtre2
 {
     padding: 8px;
-    font-family: R-semibold, Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-family: R-medium, Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 
@@ -232,6 +232,12 @@ span.cherche
 }
 
 
+.conteneur_hebergement_populaire
+{
+    display: flex; 
+
+
+}
                             /* ARTICLE (hébergements à Marseille */
 
 
@@ -241,6 +247,7 @@ span.cherche
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-between;
     font-family: R-normal, Arial, Helvetica, sans-serif;
     border: solid  #F2F2F2;
     border-radius: 20px;
@@ -261,9 +268,8 @@ span.cherche
 {
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: medium;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin-bottom: 15px;
+    margin-left: 20px;
 }
 
 .section_ham
@@ -284,7 +290,6 @@ span.cherche
     border-radius: 20px;
     box-shadow: #c7c6c6 0px 0px 4px 2px;
     margin-top: 20px;
-    margin-bottom: 80px;
 
 }
 
@@ -332,6 +337,7 @@ span.cherche
 
 
 
+
                             /* ARTICLE (les plus populaires) */
 
 
@@ -346,7 +352,7 @@ span.cherche
     background-color: #F2F2F2;
     margin-left: 60px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    width: 30%;
 
 
 }
@@ -359,20 +365,13 @@ span.cherche
     margin-left: 20px;
 }
 
-.lpp2
-{
-    font-family: R-semibold, Arial, Helvetica, sans-serif;
-    font-size: medium;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
 .section_lpp
 {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -386,7 +385,8 @@ span.cherche
     border-radius: 20px;
     box-shadow: #c7c6c6 0px 0px 4px 2px;
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -409,6 +409,54 @@ span.cherche
     color: grey;
     font-size: 12px;
 }
+
+
+                           /* FOOTER */
+
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    font-family: R-normal, Arial, Helvetica, sans-serif;
+    border: solid  #F2F2F2;
+    background-color: #F2F2F2;
+    margin-top: 150px;
+    padding-right: 250px;
+  
+
+
+}
+
+.a_propos
+{
+    display: inline-block
+}
+
+.apr
+{
+    font-family: R-bold, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 150px;
+    margin-top: 60px;
+    margin-left: 60px;
+
+}
+
+.f1 
+{
+    font-family: R-medium, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-top: -140px;
+    white-space: pre;
+
+}
+
+
+
+
 
 
 
