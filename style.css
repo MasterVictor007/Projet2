@@ -365,6 +365,7 @@ span.cherche
     font-family: R-bold, Arial, Helvetica, sans-serif;
     font-size: large;
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 20px;
 }
 
@@ -373,7 +374,7 @@ span.cherche
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -384,7 +385,8 @@ span.cherche
     flex-direction: row;
     border: solid white;
     background-color: white;
-    width: 350px;
+    width: 410px;
+    height: 160px;
     border-radius: 20px;
     box-shadow: #c7c6c6 0px 0px 4px 2px;
     margin-top: 20px;
@@ -395,8 +397,8 @@ span.cherche
 
 .img_lpp
 { 
-    height: 120px;
-    width: 250px;
+    height: 160px;
+    width: 180px;
     border-radius: 20px 0px 0% 10%;
     object-fit: cover;
 }
