@@ -38,6 +38,32 @@
 }
   
                       /* Debut du Code CSS3 */
+
+
+@media screen and (max-width: 767px) {
+    .logoreservia {
+        width: 250px;
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+    nav ul li {
+        display: flex;
+        font-size: 34px;
+        padding-left: 15px;
+        font-family: R-semibold;
+    }
+    .text1 {
+        font-size: 30px;
+    }
+    .text2 {
+        font-size: 30px;
+    }    
+        
+    }
+
+}
+
+
 * 
 {
     margin: 0px;
@@ -67,7 +93,6 @@ nav ul
     display: flex;
     font-family: R-normal, Arial, Helvetica, sans-serif;
     color: #0065FC;
-    box-shadow: 0px -55px 0px -3px #0065FC;
 }
 
 nav ul li 
@@ -75,19 +100,19 @@ nav ul li
     margin: 0px 29px;
 }
 
-div.img1 
+.img1 
 {
     margin-left: 25px;
 }
 
-div.text1
+.text1
 {
     font-family: R-bold, Arial, Helvetica, sans-serif;
     margin-left: 60px;
     font-size: large;
 }
   
-div.text2
+.text2
 {
   
     font-family: R-medium, Arial, Helvetica, sans-serif;
@@ -101,7 +126,7 @@ div.text2
 
 
 
-span.local
+.local
 {
     display: inline-block;
     margin-left: 60px;
@@ -117,7 +142,7 @@ span.local
     
 }
 
-span.search 
+.search 
 {
     
     font-family: R-semibold, Arial, Helvetica, sans-serif;
@@ -135,7 +160,7 @@ span.search
 
 }
 
-span.cherche 
+.cherche 
 {
     color: white;
     font-family: R-semibold, Arial, Helvetica, sans-serif;
@@ -239,7 +264,6 @@ span.cherche
 
 }
                             /* ARTICLE (hébergements à Marseille */
-
 
 
 .hebergements_marseille
