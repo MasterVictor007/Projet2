@@ -37,8 +37,10 @@
     src: url(R-xtrabold.ttf);
 }
   
-                      /* Debut du Code CSS3 */
 
+
+                      /* RESPONSIVE CSS */
+                      
 
 @media screen and (max-width: 767px) {
     .logoreservia {
@@ -57,12 +59,24 @@
     }
     .text2 {
         font-size: 30px;
+    }
+    div.filtres {
+        margin-right: 50px;
     }    
         
-    }
-
 }
 
+
+                      /* FIN DU RESPONSIVE CSS */
+
+
+
+
+
+
+
+
+                      /* Debut du Code CSS3 */
 
 * 
 {
@@ -454,7 +468,11 @@ nav ul li
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     font-family: R-semibold, Arial, Helvetica, sans-serif;
+    border: solid  #F2F2F2;
+    border-radius: 20px;
+    background-color: #F2F2F2;
     margin-left: 60px;
     margin-right: 30px;
     margin-top: 110px;
@@ -472,13 +490,20 @@ nav ul li
 
 }
 
+.global_activite
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .cat1
 {
-
+ 
 }
 
 .img_aam
 {
+    display: flex;
     height: 460px;
     width: 350px;
     border-radius: 20px 20px 0% 0%;
@@ -508,11 +533,12 @@ nav ul li
 
 .cat2
 {
-   
+
 }
 
 .img_cat2
 {
+    display: flex;
     height: 215px;
     width: 315px;
     border-radius: 20px 20px 0% 0%;
@@ -523,6 +549,7 @@ nav ul li
 
 .img_cat3
 {
+    display: flex;
     height: 160px;
     width: 315px;
     border-radius: 20px 20px 0% 0%;
