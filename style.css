@@ -413,7 +413,7 @@ nav ul li
 .icone_cube3
 {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 110px;
     color: #0065FC;
     font-size: 12px;
 
@@ -442,9 +442,7 @@ nav ul li
     flex-direction: row;
     justify-content: space-between;
     font-family: R-semibold, Arial, Helvetica, sans-serif;
-    border: solid  #F2F2F2;
     border-radius: 20px;
-    background-color: #F2F2F2;
 
 }
 
@@ -470,7 +468,7 @@ nav ul li
     height: 460px;
     width: 100%;
     border-radius: 20px 20px 0% 0%;
-    box-shadow: #c7c6c6 0px 0px 4px 2px;
+    box-shadow: #c7c6c6 0px 0px 7px 5px;
     object-fit: cover;
 }
 
@@ -572,6 +570,9 @@ footer
     white-space: pre;
 
 }
+
+
+
 
 
 
