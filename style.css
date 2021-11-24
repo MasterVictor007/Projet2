@@ -407,13 +407,15 @@ nav ul li
 
 .texte_lpp
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 10px;
 }
 
-.icone_cube3
+.conteneur_etoiles
 {
     display: inline-block;
-    margin-top: 110px;
     color: #0065FC;
     font-size: 12px;
 
