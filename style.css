@@ -321,24 +321,10 @@ nav ul li
 
 .texte_cube
 {
+    margin-bottom: 5px;
     margin-top: 5px;
     font-size: small;
 
-}
-
-.icone_cube
-{
-    display: inline-block;
-    margin-top: 10px;
-    color: #0065FC;
-    font-size: 12px;
-
-}
-
-.icone2_cube
-{
-    color: grey;
-    font-size: 12px;
 }
 
 
@@ -356,6 +342,7 @@ nav ul li
     border-radius: 20px;
     background-color: #F2F2F2;
     margin-top: 50px;
+    margin-left: 60px;
     margin-right: 30px;
     width: 30%;
     padding-bottom: 25px;
@@ -428,14 +415,14 @@ nav ul li
 
 
 
-                            /* Activité à Marseille */
+                                  /* Activité à Marseille */
 
 .activite_container
 {
     margin-top: 30px;
     margin-left: 60px;
     margin-right: 20px;
- 
+    
 }
 
 .activite_marseille
@@ -459,10 +446,16 @@ nav ul li
 }
 
 
-.colonne
+.colonne1
 {
     width: 22%;
 }
+
+.colonne1b
+{
+    width: 22%;
+}
+
 
 .img_aam
 {
@@ -531,7 +524,7 @@ nav ul li
 
 
 
-                           /* FOOTER */
+                            /* FOOTER */
 
 
 footer
@@ -541,7 +534,7 @@ footer
     font-family: R-normal, Arial, Helvetica, sans-serif;
     background-color: #F2F2F2;
     margin-top: 50px;
-  
+    
 
 
 }
@@ -588,6 +581,24 @@ footer
     .lplus_populaire {
         width: 90%;
     }
+    .activite_marseille {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .img_aam {
+        height: 460px;
+        width: 100%;
+    }
+    .img_cat2 {
+        height: 160px;
+        width: 100%;
+    }
+    .img_cat3 {
+        height: 160px;
+        width: 100%;
+    }
+   
 }
 
 
