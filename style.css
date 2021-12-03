@@ -54,10 +54,7 @@ body
     font-family: R-normal, Arial, Helvetica, sans-serif;
 }
 
-ul 
-{
-    list-style-type: none;
-}
+
   
 header 
 {
@@ -67,22 +64,19 @@ header
     align-items: center;
 }
   
-nav ul 
+.menu 
 {
-    display: flex;
-    font-family: R-normal, Arial, Helvetica, sans-serif;
-    color: #0065FC;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+
 }
 
-nav ul li 
+.m1 
 {
-    margin: 0px 29px;
+    
 }
 
-.img1 
-{
-    margin-left: 25px;
-}
 
 .text1
 {
@@ -360,6 +354,16 @@ nav ul li
     margin-left: 20px;
 }
 
+.icone_lpp 
+{
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-right: 20px;
+    padding-bottom: 40px;
+}
+
 .section_lpp
 {
     display: flex;
@@ -601,6 +605,27 @@ footer
    
 }
 
+@media (max-width: 900px) {
+
+    .activite_marseille {
+        flex-direction: column;
+    }
+    .colonne1, 
+    .colonne1b {
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    .img_aam,
+    .img_cat2,
+    .img_cat3 {
+        height: 160px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
 
 
 
