@@ -58,23 +58,27 @@ body
   
 header 
 {
-    margin: 30px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
   
 .menu 
 {
     display: grid;
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
     width: 100%;
-    grid-template-columns: 1fr;
+    grid-template-columns: 70% 12% 10% 10%;
+    margin-left: 30px;
 
 }
 
-.m1 
+.m4
 {
-    
+    background-color: ;
+    color: #0065FC;
+
 }
 
 
@@ -153,25 +157,72 @@ header
                             /* FILTRES DU SITE */
 
 
-.filtres 
+.les_filtres 
 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+    grid-template-rows: auto; 
+    grid-template-columns: 4% 190px 155px 185px 230px;
     margin-left: 60px;
     margin-top: 25px;
 }
 
 .texte_filtre 
 {
-    font-family: R-bold, Arial, Helvetica, sans-serif;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
     margin-right: 5px;
+    margin-top : 10px;
 }
 
-.filtre
+.le_filtre
 {
     display: flex;
     align-items: center;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    border: solid 2px #F2F2F2;
+    border-radius: 40px;
+    border-left: none;
+    width: auto;
+    margin: 0 15px 0;
+    padding: -5px;
+}
+
+.le_filtre2
+{
+    display: flex;
+    align-items: center;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    border: solid 2px #F2F2F2;
+    border-radius: 40px;
+    border-left: none;
+    width: auto;
+    margin: 0 15px 0;
+    padding: -5px;
+}
+
+.le_filtre3
+{
+    display: flex;
+    align-items: center;
+    grid-row-start: 1;
+    grid-column-start: 4;
+    border: solid 2px #F2F2F2;
+    border-radius: 40px;
+    border-left: none;
+    width: auto;
+    margin: 0 15px 0;
+    padding: -5px;
+}
+
+.le_filtre4
+{
+    display: flex;
+    align-items: center;
+    grid-row-start: 1;
+    grid-column-start: 5;
     border: solid 2px #F2F2F2;
     border-radius: 40px;
     border-left: none;
@@ -258,7 +309,7 @@ header
 }
 .ham 
 {
-    font-family: R-bold, Arial, Helvetica, sans-serif;
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: large;
     margin-top: 20px;
     margin-left: 20px;
@@ -347,7 +398,7 @@ header
 
 .lpp
 {
-    font-family: R-bold, Arial, Helvetica, sans-serif;
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: large;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -423,7 +474,8 @@ header
 
 .activite_container
 {
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     margin-left: 60px;
     margin-right: 20px;
     
@@ -442,7 +494,7 @@ header
 .aam1
 {
     display: flex;
-    font-family: R-bold, Arial, Helvetica, sans-serif;
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: 20;
     margin-bottom: 20px;
     
@@ -467,7 +519,7 @@ header
     height: 460px;
     width: 100%;
     border-radius: 20px 20px 0% 0%;
-    box-shadow: #c7c6c6 0px 0px 7px 5px;
+    box-shadow: gray 0px 0px 9px 3px;
     object-fit: cover;
 }
 
@@ -477,8 +529,8 @@ header
     border-style: solid;
     border-color: white;
     background-color: white;
-    box-shadow: #c7c6c6 0px 0px 4px 2px;
     border-radius: 0px 0px 20px 20px;
+    box-shadow: gray 0px 0px 9px 3px;
     padding-bottom: 17px;
 }
 
@@ -495,7 +547,7 @@ header
     height: 215px;
     width: 100%;
     border-radius: 20px 20px 0% 0%;
-    box-shadow: #c7c6c6 0px 0px 4px 2px;
+    box-shadow: gray 0px 0px 9px 3px;
     object-fit: cover;
 }
 
@@ -506,7 +558,7 @@ header
     width: 100%;
     border-radius: 20px 20px 0% 0%;
     margin-top: 35px;
-    box-shadow: #c7c6c6 0px 0px 4px 2px;
+    box-shadow: gray 0px 0px 9px 3px;
     object-fit: cover;
 }
 
@@ -551,7 +603,7 @@ footer
 
 .apr
 {
-    font-family: R-bold, Arial, Helvetica, sans-serif;
+    font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-bottom: 150px;
     margin-top: 60px;
@@ -559,7 +611,7 @@ footer
 
 }
 
-.f1 
+.text_footer 
 {
     font-family: R-medium, Arial, Helvetica, sans-serif;
     font-size: 17px;
@@ -627,6 +679,214 @@ footer
     }
 }
 
+@media (max-width: 850px) {
+
+    .menu 
+    {
+        width: 100%;
+        grid-template-columns: 10% 10% 10% 33% 10% 10%;
+        grid-template-rows: 10% 10% 10% 10%;
+
+    }
+
+    .m1
+    {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        margin-top: -15px;
+        margin-left: -10px;
+
+    }
+
+    .m2
+    {
+        color: #0065FC;
+        grid-row-start: 2;
+        grid-column-start: 2;
+        margin-top: 25px;
+        margin-left: -20px;
+
+    }
+
+    .m3
+    {
+        grid-row-start: 2;
+        grid-column-start: 5;
+        margin-top: 25px;
+
+    }
+
+    .m4
+    {
+        grid-row-start: 1;
+        grid-column-start: 6;
+
+    }
+
+    /* Premier double titre */
+
+    .text1
+    {
+        font-family: R-bold, Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 22px;
+    }
+    
+    .text2
+    {
+    
+        font-family: R-medium, Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    /* barre de recherche */
+
+    .local
+    {
+        margin-left: 20px;
+        margin-top: 20px;   
+    }
+
+    /* Les Filtres */
+
+    .les_filtres 
+    {
+        display: grid;
+        grid-template-rows: auto; 
+        grid-template-columns: 225px 155px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+
+    .texte_filtre 
+    {
+        grid-row-start: 1;
+        grid-column-start: 1;
+        margin-top : 10px;
+        margin-bottom: 5px;
+    }
+
+    .le_filtre
+    {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        margin: 10px 65px 0 0;
+    }
+
+    .le_filtre2
+    {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        margin: 10px 45px 0 -55px;
+    }
+
+    .le_filtre3
+    {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        margin: 10px 65px 0 0;
+    }
+    .le_filtre4
+    {
+        grid-row-start: 4;
+        grid-column-start: 1;
+        margin: 10px 25px 0 0;
+    }
+
+    /* information */
+
+    .information
+    {
+        margin-left: 20px;
+        margin-top: 35px;
+        font-size: 15px;
+    }
+
+    .info_icone 
+    {
+        display: flex;
+        margin-top: -20px;
+        font-size: 20px;
+        color: #0065FC;
+        
+    }
+
+    /* Les Plus Populaires */
+
+    .lplus_populaire
+    {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .cube_lpp1
+    {
+        width: 85%;
+    }
+
+    .img_lpp
+    { 
+        height: 140px;
+    }
+
+    /* Hebergement a marseille */
+
+    .hebergements_marseille
+    {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .cube_ham1
+    {
+        width: 85%;
+    }
+
+    .img_ham
+    {
+        width: 100%;
+        height: 110px;
+    }
+
+    /* Activite a Marseille */
+
+    .activite_container
+    {
+        margin-top: 50px;
+        margin-bottom: 12%;
+        margin-left: 20px;
+        
+    }
+
+    .colonne1
+    {
+        margin-bottom: -11px;
+        margin-top: 11%;
+    }
+
+    /* Footer */
+
+    .a_propos
+    {
+        margin-left: -20px;
+    }
+
+    .apr
+    {
+        white-space: pre;
+    }
+
+    .text_footer
+    {
+        font-size: 18px;
+    }
+
+}
 
 
 
