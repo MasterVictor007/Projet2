@@ -41,7 +41,16 @@
 
 
 
-                      /* Debut du Code CSS3 */
+
+/*________________________________________________________________*/
+
+                                               /* Debut du CSS */
+/*________________________________________________________________*/
+
+
+
+
+
 
 * 
 {
@@ -49,13 +58,13 @@
     padding: 0px;
 }
   
+
 body 
 {
     font-family: R-normal, Arial, Helvetica, sans-serif;
 }
-
-
   
+
 header 
 {
     display: flex;
@@ -64,63 +73,85 @@ header
     margin-top: 30px;
 }
   
+
 .menu 
 {
     display: grid;
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     width: 100%;
     grid-template-columns: 70% 12% 10% 10%;
+    grid-row: auto;
     margin-left: 30px;
-
 }
+
+
+.m1
+{
+    margin-top: -10px;
+    grid-row-start: 2;
+}
+
+.m2
+{
+    grid-row-start: 2;
+}
+
+
+.m3
+{
+    grid-row-start: 2;
+}
+
 
 .m4
 {
-    background-color: ;
     color: #0065FC;
-
+    grid-row-start: 2;
 }
 
 
-.text1
+.titre_site
 {
     font-family: R-bold, Arial, Helvetica, sans-serif;
     margin-left: 60px;
 }
   
-.text2
+
+.titre_site2
 {
-  
     font-family: R-medium, Arial, Helvetica, sans-serif;
     margin-left: 60px;
     margin-top: 10px;
     font-size: 0.99rem;
 }
 
-                            /* BARRE DE RECHERCHE */
 
 
 
 
-.local
+                                              /* BARRE DE RECHERCHE */
+
+
+
+
+
+.localisation
 {
     display: inline-block;
     margin-left: 60px;
     margin-top: 20px;
+    margin-bottom: 15px;
     background-color: #F2F2F2;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 15px 0px 0px 15px;
     border-color: #F2F2F2;
-    padding: 12px 13px 14px 13px;
+    padding: 12px 13px 16px 13px;
     text-align: center;
-    
-    
-    
-    
+    font-size: 16px;
 }
 
-.search 
+
+.texte_barre
 {
-    
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-weight: normal;
     border-style: solid;
@@ -131,12 +162,10 @@ header
     font-size: 1rem;
     text-align: center;
     margin-left: -5px;
-    
-    
-
 }
 
-.cherche 
+
+.bouton_recherche
 {
     color: white;
     font-family: R-semibold, Arial, Helvetica, sans-serif;
@@ -154,7 +183,30 @@ header
 }
 
 
-                            /* FILTRES DU SITE */
+.icone_recherche
+{
+    display: none;
+    color: white;
+    font-weight: normal;
+    border-style: solid;
+    border-width: thin;
+    border-color: #0065FC;
+    line-height: 2,5;
+    padding: 10px 18px 18px 13px;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: -5px;
+    background-color: #0065FC;
+}
+
+
+
+
+
+                                             /* FILTRES DU SITE */
+
+
+
 
 
 .les_filtres 
@@ -166,6 +218,7 @@ header
     margin-top: 25px;
 }
 
+
 .texte_filtre 
 {
     grid-row-start: 1;
@@ -174,6 +227,7 @@ header
     margin-right: 5px;
     margin-top : 10px;
 }
+
 
 .le_filtre
 {
@@ -189,6 +243,7 @@ header
     padding: -5px;
 }
 
+
 .le_filtre2
 {
     display: flex;
@@ -202,6 +257,7 @@ header
     margin: 0 15px 0;
     padding: -5px;
 }
+
 
 .le_filtre3
 {
@@ -217,6 +273,7 @@ header
     padding: -5px;
 }
 
+
 .le_filtre4
 {
     display: flex;
@@ -231,6 +288,7 @@ header
     padding: -5px;
 }
 
+
 .icone_filtre 
 {
     display: flex;
@@ -241,8 +299,8 @@ header
     justify-content: center;
     align-items: center;
     color: #0065FC;
-
 }
+
 
 .texte_filtre2
 {
@@ -252,7 +310,13 @@ header
 }
 
 
-                            /* INFORMATION (i) */
+
+
+
+                                                    /* INFORMATION (i) */
+
+
+
 
 
 .information
@@ -265,19 +329,19 @@ header
     font-size: 0.86rem;
 }
 
+
 .info_icone 
 {
     display: flex;
     font-size: 20px;
     color: #0065FC;
-    
 }
+
 
 .info_texte
 {
     display: inline-block;
     margin-left: 10px;
-
 }
 
 
@@ -285,10 +349,16 @@ header
 {
     display: flex; 
     justify-content: space-between;
-
-
 }
-                            /* ARTICLE (hébergements à Marseille */
+
+
+
+
+
+                                              /* ARTICLE (hébergements à Marseille */
+
+
+
 
 
 .hebergements_marseille
@@ -304,17 +374,19 @@ header
     width: 60%;
     margin-left: 60px;
     margin-top: 50px;
-
-
 }
-.ham 
+
+
+.titre_ham
 {
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: large;
     margin-top: 20px;
     margin-left: 20px;
 }
-.ham2
+
+
+.titre_ham2
 {
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: medium;
@@ -322,16 +394,16 @@ header
     margin-left: 20px;
 }
 
+
 .section_ham
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 40px;
-
 }
 
-.cube_ham1
+.cube_ham
 {
     display: flex;
     flex-direction: column;
@@ -341,8 +413,8 @@ header
     border-radius: 20px;
     box-shadow: #c7c6c6 0px 0px 4px 2px;
     margin-top: 35px;
-
 }
+
 
 .img_ham
 { 
@@ -352,10 +424,12 @@ header
     object-fit: cover;
 }
 
+
 .texte_ham
 {
     margin: 10px;
 }
+
 
 .titre_cube
 {
@@ -364,18 +438,22 @@ header
     margin-top: -5px;
 }
 
+
 .texte_cube
 {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     margin-top: 5px;
     font-size: small;
-
 }
 
 
 
 
-                            /* ARTICLE (les plus populaires) */
+
+                                          /* ARTICLE (les plus populaires) */
+
+
+
 
 
 .lplus_populaire
@@ -391,12 +469,10 @@ header
     margin-right: 30px;
     width: 30%;
     padding-bottom: 25px;
-
-
-
 }
 
-.lpp
+
+.titre_lpp
 {
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: large;
@@ -404,6 +480,7 @@ header
     margin-bottom: 20px;
     margin-left: 20px;
 }
+
 
 .icone_lpp 
 {
@@ -415,6 +492,7 @@ header
     padding-bottom: 40px;
 }
 
+
 .section_lpp
 {
     display: flex;
@@ -422,10 +500,10 @@ header
     justify-content: space-between;
     align-items: center;
     height: 100%;
-
 }
 
-.cube_lpp1
+
+.cube_lpp
 {
     display: flex;
     flex-direction: row;
@@ -435,8 +513,8 @@ header
     margin-bottom: 20px;
     border-radius: 20px;
     box-shadow: #c7c6c6 0px 0px 4px 2px;
-
 }
+
 
 .img_lpp
 { 
@@ -447,6 +525,7 @@ header
     object-fit: cover;
 }
 
+
 .texte_lpp
 {
     display: flex;
@@ -455,13 +534,15 @@ header
     margin: 10px;
 }
 
+
 .conteneur_etoiles
 {
     display: inline-block;
     color: #0065FC;
     font-size: 12px;
-
+    margin-bottom: -5px;
 }
+
 
 .etoile_inactive
 {
@@ -470,7 +551,13 @@ header
 
 
 
-                                  /* Activité à Marseille */
+
+
+                                                      /* Activité à Marseille */
+
+
+
+
 
 .activite_container
 {
@@ -478,8 +565,8 @@ header
     margin-bottom: 30px;
     margin-left: 60px;
     margin-right: 20px;
-    
 }
+
 
 .activite_marseille
 {
@@ -488,17 +575,15 @@ header
     justify-content: space-between;
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     border-radius: 20px;
-
 }
 
-.aam1
+
+.titre_aam
 {
     display: flex;
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: 20;
     margin-bottom: 20px;
-    
-
 }
 
 
@@ -506,6 +591,7 @@ header
 {
     width: 22%;
 }
+
 
 .colonne1b
 {
@@ -523,6 +609,7 @@ header
     object-fit: cover;
 }
 
+
 .minibloc
 {
     display: flex;
@@ -534,12 +621,14 @@ header
     padding-bottom: 17px;
 }
 
+
 .texte_aam
 {
     font-size: 18px;
     margin-left: 10px;
     margin-top: 10px;
 }
+
 
 .img_cat2
 {
@@ -550,6 +639,7 @@ header
     box-shadow: gray 0px 0px 9px 3px;
     object-fit: cover;
 }
+
 
 .img_cat3
 {
@@ -565,22 +655,11 @@ header
 
 
 
+ 
+                                                /* FOOTER */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-                            /* FOOTER */
 
 
 footer
@@ -590,26 +669,25 @@ footer
     font-family: R-normal, Arial, Helvetica, sans-serif;
     background-color: #F2F2F2;
     margin-top: 50px;
-    
-
-
 }
 
-.a_propos
+
+.footer_conteneur
 {
     display: inline-block;
     width: 30%;
 }
 
-.apr
+
+.titre_footer
 {
     font-family: R-semibold, Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-bottom: 150px;
     margin-top: 60px;
     margin-left: 60px;
-
 }
+
 
 .text_footer 
 {
@@ -619,8 +697,24 @@ footer
     margin-left: 25px;
     margin-top: -140px;
     white-space: pre;
-
 }
+
+
+
+
+
+
+
+
+
+
+/*__________________________________________________________________*/
+
+                                                  /* RESPONSIVE */
+/*__________________________________________________________________*/
+
+
+
 
 
 
@@ -631,25 +725,37 @@ footer
     .conteneur_hebergement_populaire {
         flex-direction: column-reverse;
     }
+
+
     .hebergements_marseille {
         width: 90%;
     }
+
+
     .lplus_populaire {
         width: 90%;
     }
+
+
     .activite_marseille {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
+
     .img_aam {
         height: 460px;
         width: 100%;
     }
+
+
     .img_cat2 {
         height: 160px;
         width: 100%;
     }
+
+
     .img_cat3 {
         height: 160px;
         width: 100%;
@@ -657,27 +763,47 @@ footer
    
 }
 
+
+
+
+
+
+
+
 @media (max-width: 900px) {
+
 
     .activite_marseille {
         flex-direction: column;
     }
+
+
     .colonne1, 
     .colonne1b {
         width: 100%;
         margin-top: 50px;
-        
     }
+
+
     .img_aam,
     .img_cat2,
     .img_cat3 {
         height: 160px;
     }
 
+
     footer {
         flex-direction: column;
     }
 }
+
+
+
+
+
+
+
+
 
 @media (max-width: 800px) {
 
@@ -687,8 +813,8 @@ footer
         grid-template-columns: 40% 30%;
         grid-template-rows: auto;
         justify-content: space-between;
-
     }
+
 
     .m1
     {
@@ -696,8 +822,8 @@ footer
         grid-column-start: 1;
         margin-bottom: 20px;
         margin-top: -15px;
-
     }
+
 
     .m2
     {
@@ -708,8 +834,8 @@ footer
         margin-left: -30px;
         padding-left: 30px;
         border-bottom: 2px solid #0065FC;
-
     }
+
 
     .m3
     {
@@ -720,19 +846,26 @@ footer
         padding-left: 75px;
         padding-bottom: 20px;
         border-bottom: 2px solid #b6adad;
-
     }
+
 
     .m4
     {
         grid-row-start: 1;
         grid-column-start: 2;
-
     }
 
-    /* Premier double titre */
 
-    .text1
+
+
+
+                                                 /* Premier double titre */
+
+
+
+
+
+    .titre_site
     {
         font-family: R-bold, Arial, Helvetica, sans-serif;
         margin-left: 20px;
@@ -740,9 +873,9 @@ footer
         font-size: 22px;
     }
     
-    .text2
+
+    .titre_site2
     {
-    
         font-family: R-medium, Arial, Helvetica, sans-serif;
         margin-left: 20px;
         margin-right: 20px;
@@ -751,15 +884,52 @@ footer
         font-size: 16px;
     }
 
-    /* barre de recherche */
 
-    .local
+
+
+
+                                                     /* barre de recherche */
+
+
+
+
+
+    .localisation
     {
-        margin-left: 20px;
-        margin-top: 20px;   
+        margin-left: 33px;
+        margin-top: 20px;
+        padding: 18px 19px 22px 19px;
     }
 
-    /* Les Filtres */
+
+    .texte_barre
+    {
+        padding: 16px 66px 19px 19px;
+    }
+
+
+    .bouton_recherche
+    {
+        display: none;
+    }
+
+
+    .icone_recherche
+    {
+        display: inline;
+        padding: 16px 19px 19px 19px;
+        margin-left: -15px;
+    }
+
+
+
+
+
+                                                /* Les Filtres */
+
+
+
+
 
     .les_filtres 
     {
@@ -770,6 +940,7 @@ footer
         margin-top: 25px;
     }
 
+
     .texte_filtre 
     {
         grid-row-start: 1;
@@ -778,12 +949,14 @@ footer
         margin-bottom: 5px;
     }
 
+
     .le_filtre
     {
         grid-row-start: 2;
         grid-column-start: 1;
         margin: 10px 65px 0 0;
     }
+
 
     .le_filtre2
     {
@@ -792,12 +965,15 @@ footer
         margin: 10px 45px 0 -55px;
     }
 
+
     .le_filtre3
     {
         grid-row-start: 3;
         grid-column-start: 1;
         margin: 10px 65px 0 0;
     }
+
+
     .le_filtre4
     {
         grid-row-start: 4;
@@ -805,7 +981,15 @@ footer
         margin: 10px 25px 0 0;
     }
 
-    /* information */
+
+
+
+
+                                                 /* information */
+
+
+
+
 
     .information
     {
@@ -814,16 +998,24 @@ footer
         font-size: 15px;
     }
 
+
     .info_icone 
     {
         display: flex;
         margin-top: -20px;
         font-size: 20px;
         color: #0065FC;
-        
     }
 
-    /* Les Plus Populaires */
+
+
+
+
+                                               /* Les Plus Populaires */
+
+
+
+
 
     .lplus_populaire
     {
@@ -831,17 +1023,29 @@ footer
         width: 100%;
     }
 
-    .cube_lpp1
+
+    .cube_lpp
     {
         width: 85%;
     }
+
 
     .img_lpp
     { 
         height: 140px;
     }
 
-    /* Hebergement a marseille */
+
+
+
+
+
+                                             /* Hebergement a marseille */
+
+
+
+
+
 
     .hebergements_marseille
     {
@@ -849,10 +1053,12 @@ footer
         width: 100%;
     }
 
-    .cube_ham1
+
+    .cube_ham
     {
         width: 85%;
     }
+
 
     .img_ham
     {
@@ -860,15 +1066,24 @@ footer
         height: 110px;
     }
 
-    /* Activite a Marseille */
+
+
+
+
+                                           /* Activite a Marseille */
+
+
+
+                                    
+
 
     .activite_container
     {
         margin-top: 50px;
         margin-bottom: 12%;
         margin-left: 20px;
-        
     }
+
 
     .colonne1
     {
@@ -876,17 +1091,26 @@ footer
         margin-top: 11%;
     }
 
-    /* Footer */
 
-    .a_propos
+
+
+                                                  /* Footer */
+
+
+
+
+
+    .footer_conteneur
     {
         margin-left: -20px;
     }
 
-    .apr
+
+    .titre_footer
     {
         white-space: pre;
     }
+
 
     .text_footer
     {
