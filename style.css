@@ -91,9 +91,11 @@ header
     grid-row-start: 2;
 }
 
+
 .m2
 {
     grid-row-start: 2;
+    color: #3887ff;
 }
 
 
